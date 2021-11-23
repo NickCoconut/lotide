@@ -2,12 +2,12 @@ const head = function(array) {
   return array[0];
 };
 
-const assertEqual = function(head, expected) {
-  if (head === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${head} === ${expected}`);
-  } else if (head !== expected) {
-    console.log(`🛑🛑🛑 Assertion Failed: ${head} !== ${expected}`);
-  } else if (head === []) {
+const assertEqual = function(actual, expected) {
+  if (actual === expected) {
+    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+  } else if (actual !== expected) {
+    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+  } else if (actual === []) {
     return undefined;
   }
 };
