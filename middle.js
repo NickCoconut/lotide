@@ -1,10 +1,3 @@
-const assertArraysEqual = function(array1, array2) {
-  if (JSON.stringify(array1) === JSON.stringify(array2)) {
-    console.log(`✅✅✅ Assertion Passed: ${array1} === ${array2}`);
-  } else if (JSON.stringify(array1) !== JSON.stringify(array2)) {
-    console.log(`🛑🛑🛑 Assertion Failed: ${array1} !== ${array2}`);
-  }
-};
 
 const middle = function(array) {
     let mid = array.length
@@ -20,4 +13,4 @@ const middle = function(array) {
 }
 }
 
-assertArraysEqual(middle([1,2,3,4,5]),3)
+module.exports = middle;
