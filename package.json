@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@NickCoconut/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "LightHouseLabs Lotide Leanring project",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/NickCoconut/lotide.git"
   },
-  "author": "",
+  "author": "NickCoconut",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NickCoconut/lotide/issues"
